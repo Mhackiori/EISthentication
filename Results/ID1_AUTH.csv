@@ -1,9 +1,33 @@
-,Model,ID,Authentication,Accuracy,Precision,Recall,F1
-0,AdaBoost,1,True,0.929,0.975,0.917,0.941
-1,Decision Tree,1,True,0.929,0.969,0.917,0.941
-2,Gaussian Naive Bayes,1,True,0.946,0.975,0.944,0.956
-3,Nearest Neighbors,1,True,0.893,0.964,0.861,0.908
-4,Neural Network,1,True,0.893,0.912,0.917,0.913
-5,Quadratic Discriminant Analysis,1,True,0.839,0.975,0.778,0.856
-6,Random Forest,1,True,0.964,1.0,0.944,0.969
-7,Support Vector Machine,1,True,0.875,1.0,0.806,0.892
+,Model,ID,Authentication,Accuracy,Precision,Recall,F1,FAR,FRR,Balance
+0,AdaBoost,1,True,0.964,1.0,0.944,0.969,0.0,0.071,50/50
+1,AdaBoost,1,True,0.956,0.969,0.929,0.945,0.031,0.045,60/40
+2,AdaBoost,1,True,0.989,0.964,1.0,0.981,0.036,0.0,70/30
+3,AdaBoost,1,True,0.95,0.725,1.0,0.81,0.275,0.0,80/20
+4,Decision Tree,1,True,0.946,0.969,0.944,0.956,0.031,0.083,50/50
+5,Decision Tree,1,True,0.985,1.0,0.964,0.981,0.0,0.023,60/40
+6,Decision Tree,1,True,0.977,0.964,0.958,0.958,0.036,0.015,70/30
+7,Decision Tree,1,True,0.96,0.75,1.0,0.833,0.25,0.0,80/20
+8,Gaussian Naive Bayes,1,True,0.946,0.975,0.944,0.956,0.025,0.071,50/50
+9,Gaussian Naive Bayes,1,True,0.985,1.0,0.964,0.981,0.0,0.023,60/40
+10,Gaussian Naive Bayes,1,True,0.966,0.917,1.0,0.95,0.083,0.0,70/30
+11,Gaussian Naive Bayes,1,True,0.92,0.671,1.0,0.754,0.329,0.0,80/20
+12,Nearest Neighbors,1,True,0.929,0.964,0.917,0.938,0.036,0.107,50/50
+13,Nearest Neighbors,1,True,0.926,1.0,0.821,0.897,0.0,0.106,60/40
+14,Nearest Neighbors,1,True,0.955,0.964,0.875,0.908,0.036,0.042,70/30
+15,Nearest Neighbors,1,True,0.97,0.917,0.75,0.783,0.083,0.021,80/20
+16,Neural Network,1,True,0.929,0.975,0.917,0.941,0.025,0.113,50/50
+17,Neural Network,1,True,0.882,0.871,0.857,0.862,0.129,0.103,60/40
+18,Neural Network,1,True,0.92,0.929,0.792,0.842,0.071,0.072,70/30
+19,Neural Network,1,True,0.94,0.75,0.75,0.667,0.25,0.021,80/20
+20,Quadratic Discriminant Analysis,1,True,0.929,1.0,0.889,0.939,0.0,0.155,50/50
+21,Quadratic Discriminant Analysis,1,True,0.838,0.896,0.786,0.809,0.104,0.125,60/40
+22,Quadratic Discriminant Analysis,1,True,0.773,0.6,0.583,0.537,0.4,0.126,70/30
+23,Quadratic Discriminant Analysis,1,True,0.9,0.681,0.75,0.633,0.319,0.021,80/20
+24,Random Forest,1,True,0.964,1.0,0.944,0.969,0.0,0.071,50/50
+25,Random Forest,1,True,0.985,1.0,0.964,0.981,0.0,0.023,60/40
+26,Random Forest,1,True,0.989,0.964,1.0,0.981,0.036,0.0,70/30
+27,Random Forest,1,True,0.98,0.875,1.0,0.917,0.125,0.0,80/20
+28,Support Vector Machine,1,True,0.893,1.0,0.833,0.904,0.0,0.207,50/50
+29,Support Vector Machine,1,True,0.824,0.789,0.786,0.785,0.211,0.148,60/40
+30,Support Vector Machine,1,True,0.784,0.583,0.667,0.617,0.417,0.125,70/30
+31,Support Vector Machine,1,True,0.9,0.35,0.375,0.31,0.4,0.052,80/20
