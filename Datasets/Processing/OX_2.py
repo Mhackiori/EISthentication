@@ -47,7 +47,7 @@ for i, file in enumerate(files):
     df = xls.parse(sheets[0])
 
     for col in df.columns:
-        if 'Re' in col:
+        if 'Re' in col: # Real part
             z1 = df[col].tolist()
         else:
             z2 = df[col].tolist()

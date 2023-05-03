@@ -89,7 +89,7 @@ for i, file in enumerate(files):
 
     # Saving IDs again
     features['id1'] = [id1] * len(features)
-    features['id2'] = [id1] * len(features) # That's ok, id1 and id2 for this first dataset are the same
+    features['id2'] = [id1] * len(features) # ID1 and ID2 for this first dataset are the same
     features['id3'] = [id3] * len(features)
 
     dfs.append(features)

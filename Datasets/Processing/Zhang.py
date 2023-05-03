@@ -51,7 +51,7 @@ dfs = []
 for i, file in enumerate(files):
     filePath = os.path.join(datasetDir, file)
 
-    # Only cells @ 25C contain the header, handling this...
+    # Only cells @ 25C contain the header, handling this
     if '25C' in filePath:
         df = pd.read_csv(filePath, sep="\t")
     else:
