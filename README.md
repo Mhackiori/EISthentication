@@ -6,7 +6,7 @@
     <img src="https://i.postimg.cc/YSzhs6yR/EISthentication.png" alt="Logo" width="500" height="100">
   </a>
 
-  <h1 align="center">Your Battery Is (Not) Safe</h1>
+  <h1 align="center">Your Battery Is A Blast!</h1>
 
   <p align="center">Safeguarding Against Counterfeit Batteries with Authentication
     <br />
@@ -76,9 +76,9 @@ Here is the list of the datasets used for EISthentication.
 
 | **Name** | **Battery** | **Data** |
 |---|---|---|
-| SiCWell [[Ref]](https://ieee-dataport.org/open-access/sicwell-dataset) | Unknown (NMC) | Cycled with driving profiles (sWLTP, UDDS) |
-| SNL [[Ref]](https://www.sandia.gov/ess/tools-resources/rd-data-repository) | LGDBHE21865 (NMC)<br>ANR18650M1 (LFP)<br>NCR18650A (LCO)<br>LGDBHG21865 (NCA) | Cycled at same SOC, different temperatures |
-| Zhang et al. [[Ref]](https://zenodo.org/record/3633835#.ZFDKEXZBwQ8) | Eunicell LR2032 (LCO) | Three temperatures at nine different stages of cycling |
+| SiCWell [[Ref]](https://ieee-dataport.org/open-access/sicwell-dataset) | Unknown (NMC) | Cycled with driving profiles (sWLTP, UDDS). |
+| SNL [[Ref]](https://www.sandia.gov/ess/tools-resources/rd-data-repository) | • LGDBHE21865 (NMC)<br>• ANR18650M1 (LFP)<br>• NCR18650A (LCO)<br>• LGDBHG21865 (NCA) | Cycled at same SOC, different temperatures. |
+| Zhang et al. [[Ref]](https://zenodo.org/record/3633835#.ZFDKEXZBwQ8) | Eunicell LR2032 (LCO) | Three temperatures at nine different stages of cycling. |
 
 <p align="right"><a href="#top">(back to top)</a></p>
 <div id="models"></div>
